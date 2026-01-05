@@ -32,7 +32,7 @@ def gwa(es):
     toun=un[4]+un[4]+un[4]+un[1]+un[2]+un[0]
     gwa=tot/toun
     gwa=round(gwa, 2)
-    if gwa>74: #More than 74
+    if gwa > 74: #More than 74
         display(f'PASSED', target="gw")
     else: #Less than 75
         display(f'FAILED', target="gw")
