@@ -33,7 +33,7 @@ def gwa(es):
     gwa=tot/toun
     gwa=round(gwa, 2)
     if gwa>74: #More than 74
-        display(f'PASSED', target="output")
+        display(f'PASSED', target="gw")
     else: #Less than 75
-        display(f'FAILED', target="output")
+        display(f'FAILED', target="gw")
     display(f'Your General Weight Average is: {gwa}', target='gw')
